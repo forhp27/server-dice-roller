@@ -3,7 +3,7 @@
 // Get images source with random dice
 const randomNumber1 = Math.floor(Math.random() * 6) + 1;
 const randomDice = "die" + randomNumber1 + ".png";
-const randomImageSource = "/images/" + randomDice;
+const randomImageSource = "/" + randomDice;
 
 // Randomise player one dice
 const image1 = document.querySelectorAll("img")[0];
@@ -17,7 +17,7 @@ image1.setAttribute("src", randomImageSource);
 const randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 // random dice for player 2
-const randomDice2 = "/images/dice" + randomNumber2 + ".png";
+const randomDice2 = "/dice" + randomNumber2 + ".png";
 
 // Let's randomise player two
 
