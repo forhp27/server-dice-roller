@@ -6,10 +6,8 @@ function rollDice() {
   const image1 = document.querySelectorAll("img")[0];
   image1.setAttribute("src", randomImageSource);
 
-  const randomNumber2 = Math.floor(Math.random() * 6) + 1;
-  const randomDice2 = "/dice/die" + randomNumber2 + ".png";
-  const image2 = document.querySelectorAll("img")[1];
-  image2.setAttribute("src", randomDice2);
+  const resultParagraph = document.querySelector("p");
+  resultParagraph.textContent = `You rolled a ${randomNumber1}`;
 }
 
 const button = document.querySelector("button");
