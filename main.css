@@ -1,22 +1,18 @@
-/* One */
 .container {
   width: 70%;
   margin: auto;
   text-align: center;
 }
 
-/* Two */
 .dice {
   text-align: center;
   display: inline-block;
 }
 
-/* Three */
 body {
   background-color: #393e46;
 }
 
-/* Four */
 h1 {
   margin: 30px;
   font-family: "Lobster", cursive;
@@ -25,19 +21,16 @@ h1 {
   color: #4ecca3;
 }
 
-/* Five */
 p {
   font-size: 2rem;
   color: #4ecca3;
   font-family: "Indie Flower", cursive;
 }
 
-/* Six */
 img {
   width: 80%;
 }
 
-/* Seven */
 .button-container {
   margin-top: 2rem;
   width: 100%;
@@ -47,7 +40,6 @@ img {
   align-items: center;
 }
 
-/* Eight */
 button {
   width: 40%;
   height: 80%;
@@ -60,14 +52,12 @@ button {
   background-color: #4ecca3;
 }
 
-/* Nine */
 button:hover {
   background-color: #4ecca3;
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(4, 217, 18, 0.8);
 }
 
-/* Ten */
 footer {
   margin-top: 5%;
   color: #eeeeee;
