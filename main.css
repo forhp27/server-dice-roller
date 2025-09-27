@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #393e46;
+  background-color: #23262a;
 }
 
 h1 {
@@ -18,12 +18,12 @@ h1 {
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 5rem;
-  color: #4ecca3;
+  color: #58b2dc;
 }
 
 p {
   font-size: 2rem;
-  color: #4ecca3;
+  color: #58b2dc;
   font-family: "Indie Flower", cursive;
 }
 
@@ -49,11 +49,11 @@ button {
   outline: none;
   cursor: pointer;
   border-radius: 5px;
-  background-color: #4ecca3;
+  background-color: #58b2dc;
 }
 
 button:hover {
-  background-color: #4ecca3;
+  background-color: #58b2dc;
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(4, 217, 18, 0.8);
+  box-shadow: 0 0 20px #34718d;
 }
