@@ -5,10 +5,10 @@ function rollDice() {
   const randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
   // Get a random dice
-  const randomDice = "dice" + randomNumber1 + ".png";
+  const randomDice = "die" + randomNumber1 + ".png";
 
   // Get images source with random dice
-  const randomImageSource = "/images/" + randomDice;
+  const randomImageSource = "/" + randomDice;
 
   // Randomise player one dice
   const image1 = document.querySelectorAll("img")[0];
@@ -21,7 +21,7 @@ function rollDice() {
   const randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
   // random dice for player 2
-  const randomDice2 = "/images/dice" + randomNumber2 + ".png";
+  const randomDice2 = "/images/die" + randomNumber2 + ".png";
 
   // Let's randomise player two
 
