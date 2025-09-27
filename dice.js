@@ -7,7 +7,7 @@ function rollDice() {
   image1.setAttribute("src", randomImageSource);
 
   const resultParagraph = document.querySelector("p");
-  resultParagraph.textContent = `You rolled a ${randomNumber1}`;
+  resultParagraph.textContent = `You rolled a ${randomNumber1}!`;
 }
 
 const button = document.querySelector("button");
